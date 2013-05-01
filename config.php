@@ -66,7 +66,7 @@
 /**********************************************************************************
  *  Default FileStateMachine settings
  */
-    define('STATE_DIR', '/app/z-push-store/');
+    define('STATE_DIR', '/app/www/z-push-store/');
 
 
 /**********************************************************************************
@@ -86,7 +86,7 @@
  *  ones, e.g. setting to LOGLEVEL_DEBUG will also output LOGLEVEL_FATAL, LOGLEVEL_ERROR,
  *  LOGLEVEL_WARN and LOGLEVEL_INFO level entries.
  */
-    define('LOGFILEDIR', '/app/log/');
+    define('LOGFILEDIR', '/app/www/z-push-log/');
     define('LOGFILE', LOGFILEDIR . 'z-push.log');
     define('LOGERRORFILE', LOGFILEDIR . 'z-push-error.log');
     define('LOGLEVEL', LOGLEVEL_INFO);
