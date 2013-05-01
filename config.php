@@ -89,7 +89,7 @@
     define('LOGFILEDIR', $_ENV["OPENSHIFT_PHP_LOG_DIR"]);
     define('LOGFILE', LOGFILEDIR . 'z-push.log');
     define('LOGERRORFILE', LOGFILEDIR . 'z-push-error.log');
-    define('LOGLEVEL', LOGLEVEL_DEBUG);
+    define('LOGLEVEL', LOGLEVEL_INFO);
     define('LOGAUTHFAIL', false);
 
 
