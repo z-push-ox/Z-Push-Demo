@@ -129,7 +129,7 @@ include_once('version.php');
 
     try {
         // check config & initialize the basics
-        //ZPush::CheckConfig();
+        ZPush::CheckConfig();
         Request::Initialize();
         ZLog::Initialize();
 
