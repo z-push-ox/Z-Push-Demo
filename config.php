@@ -66,7 +66,7 @@
 /**********************************************************************************
  *  Default FileStateMachine settings
  */
-    define('STATE_DIR', $_ENV["OPENSHIFT_DATA_DIR"] . '/state/');
+    define('STATE_DIR', $_ENV["OPENSHIFT_DATA_DIR"] . 'state/');
 
 
 /**********************************************************************************
