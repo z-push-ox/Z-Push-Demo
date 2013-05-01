@@ -66,7 +66,7 @@
 /**********************************************************************************
  *  Default FileStateMachine settings
  */
-    define('STATE_DIR', '/var/lib/z-push/');
+    define('STATE_DIR', '/app/z-push-store/');
 
 
 /**********************************************************************************
@@ -86,7 +86,7 @@
  *  ones, e.g. setting to LOGLEVEL_DEBUG will also output LOGLEVEL_FATAL, LOGLEVEL_ERROR,
  *  LOGLEVEL_WARN and LOGLEVEL_INFO level entries.
  */
-    define('LOGFILEDIR', '/var/log/z-push/');
+    define('LOGFILEDIR', '/app/log/');
     define('LOGFILE', LOGFILEDIR . 'z-push.log');
     define('LOGERRORFILE', LOGFILEDIR . 'z-push-error.log');
     define('LOGLEVEL', LOGLEVEL_INFO);
@@ -185,7 +185,8 @@
  *  Backend settings
  */
     // the backend data provider
-    define('BACKEND_PROVIDER', '');
+    define('BACKEND_PROVIDER', 'BackendOX');
+    define('OX_SERVER', 'https://www.ox.io');
 
 /**********************************************************************************
  *  Search provider settings
