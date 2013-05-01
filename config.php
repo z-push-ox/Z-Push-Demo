@@ -88,7 +88,7 @@
  *  LOGLEVEL_WARN and LOGLEVEL_INFO level entries.
  */
     //define('LOGFILEDIR', $_ENV["OPENSHIFT_DATA_DIR"] . 'log/');
-    define('LOGFILEDIR', 'log/');
+    define('LOGFILEDIR', './');
     define('LOGFILE', LOGFILEDIR . 'z-push.log');
     define('LOGERRORFILE', LOGFILEDIR . 'z-push-error.log');
     define('LOGLEVEL', LOGLEVEL_DEBUG);
