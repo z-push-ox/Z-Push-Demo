@@ -88,7 +88,7 @@
  *  LOGLEVEL_WARN and LOGLEVEL_INFO level entries.
  */
     //define('LOGFILEDIR', $_ENV["OPENSHIFT_DATA_DIR"] . 'log/');
-    define('LOGFILEDIR', '/var/lib/openshift/51814ea55973ca8ed500027d/app-root/data/log/');
+    define('LOGFILEDIR', 'log/');
     define('LOGFILE', LOGFILEDIR . 'z-push.log');
     define('LOGERRORFILE', LOGFILEDIR . 'z-push-error.log');
     define('LOGLEVEL', LOGLEVEL_DEBUG);
