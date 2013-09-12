@@ -9,7 +9,7 @@ notifications:
     on_success: change
     on_failure: always
 
-script:
+script: "echo 'nothing to do ...'"
 
 deploy:
   provider: openshift
