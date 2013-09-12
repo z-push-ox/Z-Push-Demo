@@ -1,0 +1,11 @@
+php:
+- '5.5'
+deploy:
+  provider: openshift
+  user: liob@metalabs.de
+  password:
+    secure: ADwjQhfu/vN/ExY45r0TUH5tcj/3G94WDTIcf5pcUhlYsL7zpMh6idBb0saFOLwJUhNNihpyaAdO32FrrRmQ50aXHGTnTJUezpWaq7sOs6GzXyX0b3hqHLBr2fJYKcWdNquL93cv07oty7suF7zsavKPwM13TZU29tItlt3nNcY=
+  app: zpox
+  domain: zpox-liob.rhcloud.com
+  on:
+    repo: z-push-ox/Z-Push-Demo
