@@ -1,5 +1,8 @@
 php:
 - '5.5'
+
+script:
+
 deploy:
   provider: openshift
   user: liob@metalabs.de
