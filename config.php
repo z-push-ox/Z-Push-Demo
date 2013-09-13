@@ -186,7 +186,7 @@
  */
     // the backend data provider
     define('BACKEND_PROVIDER', 'BackendOX');
-    define('OX_SERVER', 'https://www.ox.io');
+    define('OX_SERVER', 'http://ox.io');
 
 /**********************************************************************************
  *  Search provider settings
